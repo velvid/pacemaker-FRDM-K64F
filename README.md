@@ -5,23 +5,45 @@
 
 ![](https://github.com/aokit-mcmaster/lab1-group8/blob/master/images/MASTER-diagram.png)
 
-## DEVICE-CONTROLLER MONITOR
+## DEVICE-CONTROLLER MONITOR (DCM)
 
 **DCM Login Form**
 
 ![](https://i.imgur.com/HjHDj3R.gif)
 
-**DCM Registration Form (ADMIN VIEW)**
+- The main login screen with a heart animation (source: https://docjana.com/cardiac-cycle/)
+- Can add up to 10 users and remove them (as long as you know user/pass)
+- Upon login, main interface will appear
+
+**DCM Registration Form**
 
 ![](https://i.imgur.com/RLxQ9UD.gif)
 
-**DCM Program**
+- Can edit users from window accessible from main interface
+- Can remove users without knowing passwords (an admin privilege)
+- Can add up to 10 users and view all registered users
+
+**DCM Interface (changing/saving/loading parameters)**
 
 ![](https://i.imgur.com/j1wkEK6.gif)
 
+- Can change pacing modes and relevant parameters are hidden/shown
+- Can edit parameters with spinner arrows within set bounds
+- Can also save parameters to exported text file, and load them any time
+
+**DCM Serial Communication**
+
 ![](https://i.imgur.com/ueCVjXs.gif)
 
+- Connect to pacemaker hardware over USB serial communication (using UART protocol)
+- Upon successful connection, can send/view parameters
+- Can view electrogram to see atrial/ventricular signals real time
+
+**DCM Logout/Login Screen**
+
 ![](https://i.imgur.com/OsLuzRK.gif)
+
+- Can logout of the interface to view login screen again
 
 ## UTILITIES
 
