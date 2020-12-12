@@ -5,6 +5,24 @@
 
 ![](https://github.com/aokit-mcmaster/lab1-group8/blob/master/images/MASTER-diagram.png)
 
+## DEVICE-CONTROLLER MONITOR
+
+**DCM Login Form**
+
+![](https://i.imgur.com/HjHDj3R.gif)
+
+**DCM Registration Form (ADMIN VIEW)**
+
+![](https://i.imgur.com/RLxQ9UD.gif)
+
+**DCM Program**
+
+![](https://i.imgur.com/j1wkEK6.gif)
+
+![](https://i.imgur.com/ueCVjXs.gif)
+
+![](https://i.imgur.com/OsLuzRK.gif)
+
 ## UTILITIES
 
 ### PACE
@@ -42,51 +60,3 @@
 | Inputs | p\_lower\_rate\_limit, p\_upper\_rate\_limit, p\_hysteresis\_enable, p\_hysteresis\_rate\_limit, p\_rate\_smoothing\_enable, p\_rate\_smoothing\_percent |
 | --- | --- |
 | Outputs | start_pace |
-
-## Variable Names
-
-**p\_parameters**
-
-- p\_mode
-- p\_lower\_rate\_limit
-- p\_upper\_rate\_limit
-- p\_atr\_pulse\_amplitude
-- p\_vent\_pulse\_amplitude
-- p\_atr\_pulse\_width
-- p\_vent\_pulse\_width
-- p\_atr\_sensitivity
-- p\_vent\_sensitivity
-- p\_vrp
-- p\_arp
-- p\_pvarp
-- p\_hysteresis\_enable
-- p\_hysteresis\_rate\_limit
-- p\_rate\_smoothing\_enable
-- p\_rate\_smoothing\_percent
-
-**h\_parameters**
-
-- h\_atr\_pulse\_detect
-- h\_vent\_pulse\_detect
-
-**internal signals**
-
-- start\_pace
-
-## DCM Sample Demos
-
-**DCM Login Form**
-
-![](images/DCM_Login_Screenshot.png)
-
-**DCM Registration Form (ADMIN VIEW)**
-
-![](images/DCM_EditUser_Screenshot.png)
-
-**DCM Program**
-
-![](images/DCM_MainInterface_Screenshot.png)
-
-**Electrogram**
-
-![](images/DCM_EGRAM_Screenshot.png)
